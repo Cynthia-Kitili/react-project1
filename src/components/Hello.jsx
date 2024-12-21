@@ -1,5 +1,9 @@
-function Hello() {
-    return <h1>Hello component!</h1>
+
+function Hello({person}) {
+    
+    return <div>
+        <h1>{person.message} {person.emoji} {person.name} {person.seatNumbers}!</h1>
+    </div>
 }
 
 export default Hello;
