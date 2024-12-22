@@ -1,6 +1,7 @@
 import Conditional from "./components/Conditional";
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
+import Message from "./components/Message";
 
 function App() {
   const person = {
@@ -13,7 +14,8 @@ function App() {
     <>
       {/* <Hello person={person}/> */}
       {/* <Fruits/> */}
-      {<Conditional/>}
+      {/* {<Conditional/>} */}
+      <Message/>
     </>
   )
 }
